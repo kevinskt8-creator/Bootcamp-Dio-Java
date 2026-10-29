@@ -17,11 +17,11 @@ public class OrderService {
 	@Autowired
 	private OrderRepository repository; 
 	
-	public List<Category> findAll() {
+	public List<Order> findAll() {
 		return repository.findAll();
 	}
 	
-	public Category findById(Long id) {
+	public Order findById(Long id) {
 		Optional<Order> obj = Optional.empty();
 		return obj.get(); 
 	}

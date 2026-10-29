@@ -26,8 +26,4 @@ public class OrderService {
 		return obj.get(); 
 	}
 
-	public User insert(User obj) {
-		// TODO Auto-generated method stub
-		return null;
 	}
-}

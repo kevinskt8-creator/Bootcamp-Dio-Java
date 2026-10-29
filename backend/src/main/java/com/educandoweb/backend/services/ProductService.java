@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.educandoweb.backend.entities.Product;
 import com.educandoweb.backend.entities.User;
 import com.educandoweb.backend.repositories.ProductRepository;
 import com.educandoweb.backend.repositories.UserRepository;
@@ -23,7 +24,7 @@ public class ProductService {
 		return repository.findAll();
 	}
 	
-	public User findById(Long id) {
+	public Product findById(Long id) {
 		Optional<Product> obj = repository.findById(id);
 		return obj.get();
 		

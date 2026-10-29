@@ -25,4 +25,9 @@ public class OrderService {
 		Optional<Order> obj = Optional.empty();
 		return obj.get(); 
 	}
+
+	public User insert(User obj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
